@@ -30,3 +30,4 @@ def get_html(times):
 if __name__ == '__main__':
     res = run_parallel(lambda: get_html(2), lambda: get_html(3))
     print("main:" + res.__str__())
+    print(os.cpu_count())
