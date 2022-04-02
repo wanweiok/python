@@ -25,7 +25,7 @@ if __name__ == '__main__':
     #     data = future.result()
     #     print("in main: get page {}s sucess".format(data))
 
-    # urls = [3, 2, 4]i
+    # urls = [3, 2, 4]
     # executor = ThreadPoolExecutor(max_workers=2)
     # for data in executor.map(get_html, urls):
     #     print("get {} page".format(data))
