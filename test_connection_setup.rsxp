@@ -1,0 +1,27 @@
+# Connection Setup
+ConnectionSetup:
+    name: Beijing Setup
+    config_1:
+        band: n41,n40
+        downlink: 1.RF1COM,1.RF2COM,1.RF3COM,1.RF4COM
+        downlink_attenuation: 0,0,0,0
+        uplink: 1.RF4COM
+        uplink_attenuation: 6
+    config_2:
+        band: 1,3
+        downlink: 2.RF3COM,2.RF4COM
+        uplink: 2.RF4COM
+        downlink_attenuation: 0,0,0,0
+        uplink_attenuation: 6
+    config_3:
+        band: n78
+        downlink: 2.RF1COM,2.RF2COM
+        uplink: 2.RF2COM
+        downlink_attenuation: 0,0,0,0
+        uplink_attenuation: 6
+    config_4:
+        band: n257
+        downlink: 0.Slot1.Port1.RRH.RF2
+        downlink_attenuation: 0
+        uplink: 0.Slot1.Port1.RRH.RF2
+        uplink_attenuation: 0
